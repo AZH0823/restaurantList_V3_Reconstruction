@@ -5,10 +5,15 @@
   </div>
   <form action="/restaurant/{{findOneRes._id}}" method="POST">
     <div class="form-row">
-      <div class="col-md-6 mb-3">
+      <div class="col-md-3 mb-3">
         <label for="name">餐廳名稱</label>
         <input type="text" class="form-control" id="name" placeholder="請書輸入您的餐廳名字..." name="name"
           value="{{findOneRes.name}}" required>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="name_en">餐廳名稱 Eng name</label>
+        <input type="text" class="form-control" id="name_en" placeholder="請書輸入您的餐廳英文名字..." name="name_en"
+          value="{{findOneRes.name_en}}" required>
       </div>
       <div class="col-md-6 mb-3">
         <label for="category">餐廳類型</label>
