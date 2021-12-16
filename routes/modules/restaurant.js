@@ -21,7 +21,7 @@ router.get('/new', (req, res) => {
 
 //新增一筆資料
 router.post("/", (req, res) => {
-  console.log(req.body)
+  // console.log(req.body)
   return resList.create(req.body)
     .then(() => res.redirect("/"))
     .catch(error => console.log(error))

@@ -41,3 +41,4 @@ const restaurantListSchema = new Schema({
 
 })
 module.exports = mongoose.model('restaurantLists', restaurantListSchema)
+ // restaurantLists :資料庫內resauant-list在的清單命名
