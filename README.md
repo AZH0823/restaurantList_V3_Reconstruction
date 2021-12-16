@@ -12,12 +12,15 @@
 ![image](https://github.com/AZH0823/RestaurantList_V2_CRUD/blob/master/Cover/Capture_edit01_V02.JPG?raw=true)
 ### 刪除餐廳
 - 直接進首頁或詳細頁面，按下Delete 即可刪除該筆資料
-### 
+### 排序資料
+- 選擇下拉選單選項，並按下放大鏡icon 即可排序資料
+
 ## 功能
 - 使用者能查看所有餐廳訊息
 - 使用者能針對關鍵字進行搜尋
 - 使用者能查閱餐廳詳細資訊
 - 使用 CURD 方式
+- 排序(A-Z,Z-A,餐廳類型,地區)
 
 ## 使用說明
 1. 請先確認是否安裝 Node.js
@@ -27,7 +30,7 @@ https://github.com/AZH0823/RestaurantList.git
 ```
 3.進入專案資料夾
 ```
-cd restaurantList_V2_CURD
+cd restaurantList_V3_CURD
 ```
 4.安裝所需套件
 ```
@@ -46,6 +49,7 @@ npm run start
 npm run dev
 ```
 ## 更新說明
-- 使用handlebars if/else 判斷 KEYWORD
-- Search 為 null  ,重新載入頁面(※以後修改成部分重新載入)
-- 使用CURD 修正 Router
+- 重構 mongoose
+- 重構 Router 
+- 新增 method-override
+- 新增 
